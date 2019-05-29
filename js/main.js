@@ -56,7 +56,7 @@ $('#stop').click(function (){
 });
 
 //Playlist Song Click
-$('playlist li').click(function(){
+$('#playlist li').click(function(){
 	audio.pause();
 	initAudio($(this));
 	$('#play').hide();
